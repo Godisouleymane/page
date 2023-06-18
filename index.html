@@ -280,7 +280,8 @@
       </article>
 
    <article class="card border-0 col-lg-5 ">
- <form action="" class="mt-5">
+
+ <form class="mt-5" onsubmit="sendEmail(); reset(); return false;">
       <input class="w-75" type="text" name="input-text" id="text" placeholder="First name" required> <br><br>
 
       <input class="w-75" type="text" name="input-last-name" id="text" placeholder="Last name"> <br><br>
@@ -288,7 +289,7 @@
       <input class="w-75" type="email" name="input-email" id="email" placeholder="Email" required> <br><br>
 
       <textarea class="w-75" name="" id="" cols="" rows="4" required></textarea> <br><br>
-      <button class="btn btn-primary">Get in touch</button>
+      <button type="submit" class="btn btn-primary">Get in touch</button>
     </form>
     </article>
 
@@ -299,7 +300,7 @@
   <script src="javaScript/bootstrap.bundle.min.js"></script>
   <script src="javaScript/bootstrap.bundle.min.js.map"></script>
   <script src="javaScript/app.js"></script>
-  <script src="javaScript/smtp.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
