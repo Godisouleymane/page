@@ -162,7 +162,6 @@
         </div>
       </article>
 
-
       <article class="card border-0 border-bottom border-black mt-md-3 col-lg-3 col-md-8">
         <img class="card-img-top" src="app/Mobile Marketing-pana.png" alt="image">
         <div class="card-body">
@@ -281,26 +280,30 @@
 
    <article class="card border-0 col-lg-5 ">
 
- <form class="mt-5" onsubmit="sendEmail(); reset(); return false;">
-      <input class="w-75" type="text" name="input-text" id="text" placeholder="First name" required> <br><br>
+ <form action="" class="mt-5">
+      <input class="w-75" type="text" name="input-text" id="first_name" placeholder="First name" required> <br><br>
 
-      <input class="w-75" type="text" name="input-last-name" id="text" placeholder="Last name"> <br><br>
+      <input class="w-75" type="text" name="input-last-name" id="last_name" placeholder="Last name"> <br><br>
 
       <input class="w-75" type="email" name="input-email" id="email" placeholder="Email" required> <br><br>
 
-      <textarea class="w-75" name="" id="" cols="" rows="4" required></textarea> <br><br>
-      <button type="submit" class="btn btn-primary">Get in touch</button>
-    </form>
+      <textarea class="w-75" name="" id="message" placeholder="Message" cols="" rows="4" required></textarea> <br><br>
+
+      <button class="btn btn-primary">Get in touch <i class="bi bi-send-fill"></i></button>
+ </form>
+ 
     </article>
 
     </div>
  
    
   </section>
+
+
+  
   <script src="javaScript/bootstrap.bundle.min.js"></script>
   <script src="javaScript/bootstrap.bundle.min.js.map"></script>
   <script src="javaScript/app.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>

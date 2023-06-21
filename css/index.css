@@ -105,6 +105,19 @@ textarea:focus {
     border: 1px solid rgb(32, 134, 244) !important;
 }
 
+.send {
+    color: rgb(32, 134, 244);
+   
+    transition:  0.5s ease-out !important;
+    float: left; 
+}
+
+.done {
+    color: rgb(143, 223, 24);
+}
+
+
+
 
 
 @media screen and (max-width:700px) {
